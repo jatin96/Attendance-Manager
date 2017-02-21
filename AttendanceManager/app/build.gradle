@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.narula.jatin.attendancemanager"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':fab-1.6.4')
+    compile project(':fancybuttons-1.4')
+
+    //compile project(':Android-Week-View-develop')
+    compile('com.github.florent37:androidparallax:1.0.1@aar') {
+        transitive = true
+    }
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.roomorama:caldroid:3.0.1'
+    compile 'com.github.alamkanak:android-week-view:1.2.6'
+    compile 'com.github.zurche:plain-pie:v0.1.1'
+    compile 'com.github.ybq:Android-SpinKit:1.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.github.TouchBoarder:weekdays-buttons-bar:v1.0.2'
+    compile 'com.cuboid:cuboidcirclebutton:1.0.3'
+    compile 'biz.kasual:materialnumberpicker:1.2.1'
+    compile 'me.spark:submitbutton:1.0.1'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.zcw:togglebutton-library:1.0.0'
+    compile 'com.majeur.cling:cling:1.1'
+}

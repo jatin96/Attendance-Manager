@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AttendanceManager.iml" filepath="$PROJECT_DIR$/AttendanceManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circlebutton-1.1/circlebutton-1.1.iml" filepath="$PROJECT_DIR$/circlebutton-1.1/circlebutton-1.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fab-1.6.4/fab-1.6.4.iml" filepath="$PROJECT_DIR$/fab-1.6.4/fab-1.6.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fancybuttons-1.4/fancybuttons-1.4.iml" filepath="$PROJECT_DIR$/fancybuttons-1.4/fancybuttons-1.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbutton-1.0.1/fbutton-1.0.1.iml" filepath="$PROJECT_DIR$/fbutton-1.0.1/fbutton-1.0.1.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.narula.jatin.attendancemanager">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <receiver
+            android:name="com.narula.jatin.attendancemanager.AlarmReceiver1"
+            android:enabled="true" />
+        <receiver
+            android:name="com.narula.jatin.attendancemanager.AlarmReceiver2"
+            android:enabled="true" />
+
+        <service android:name="com.narula.jatin.attendancemanager.NotificationService1" />
+        <service android:name="com.narula.jatin.attendancemanager.NotificationService2" />
+
+        <activity
+            android:name="com.narula.jatin.attendancemanager.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/main_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.narula.jatin.attendancemanager.SplashScreen"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.narula.jatin.attendancemanager.CalendarActivity" />
+        <activity
+            android:name="com.narula.jatin.attendancemanager.InputActivity"
+            android:label="@string/title_activity_input"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.narula.jatin.attendancemanager.StatsActivity" />
+        <activity
+            android:name="com.narula.jatin.attendancemanager.PredictorActivity"
+            android:label="@string/title_activity_predictor1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.narula.jatin.attendancemanager.TimeTableActivity"
+            android:label="@string/title_activity_time_table2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.narula.jatin.attendancemanager.SettingsActivity" />
+        <activity
+            android:name="com.narula.jatin.attendancemanager.SubjectsActivity"
+            android:label="@string/title_activity_subjects2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

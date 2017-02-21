@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <array name="dot_colors">
+        <item>#03A9F4</item>
+        <item>#E65100</item>
+        <item>#FFBB00</item>
+    </array>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#efefef</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+    <color name="present">#4C8C50</color>
+    <color name="absent">#E53935</color>
+    <color name="off">#FFD700</color>
+    <color name="barcolor1">#0091ea</color>
+    <color name="barcolor2">#ffca28</color>
+    <color name="barcolor3">#e65100</color>
+    <color name="barcolor4">#c62828</color>
+    <color name="selectedTextColor">#fff</color>
+    <color name="unselectedTextColor">#000</color>
+    <color name="selectedColor">#FF4081</color>
+
+    <color name="calendar_color">#9c27b0</color>
+    <color name="subjects_color">#ff6d00</color>
+    <color name="timetable_color">#7c4dff</color>
+    <color name="predictor_color">#00bcd4</color>
+    <color name="add_button_color">#DA4336</color>
+
+</resources>
+
