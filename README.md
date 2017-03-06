@@ -7,6 +7,22 @@ It involves extensive use of SQLite database, Intents, Fragments, BroadcastRecei
 
 The app is also available on google play store - 
 link - https://play.google.com/store/apps/details?id=com.narula.jatin.attendancemanager&hl=en
-screen shot -- >
-![Alt text](https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173239.png){:height="36px" width="36px"}
+
+# Tools and Libraries used
+1. Android Studio
+2. Gradle
+3. SQLite Database
+4. Android phone or emulator
+
+# external libraries Used
+1. Caldroid Calendar link - https://github.com/roomorama/Caldroid
+2. Fancy Buttons
+3. Different external libraries for animations.
+# Screen Shots
+
+<img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173239.png" height="400" alt="Screenshot"/> <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173220.png" height="400" alt="Screenshot"/> <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173011.png" height="400" alt="Screenshot"/>  <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-172947.png" height="400" alt="Screenshot"/> 
+
+
+
+
 
