@@ -18,8 +18,8 @@ link - https://play.google.com/store/apps/details?id=com.narula.jatin.attendance
 1. Caldroid Calendar link - https://github.com/roomorama/Caldroid
 2. Fancy Buttons
 3. Different external libraries for animations.
-# Screen Shots
 
+# ScreenShots
 <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173239.png" height="400" alt="Screenshot"/> <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173220.png" height="400" alt="Screenshot"/> <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173011.png" height="400" alt="Screenshot"/>  <img src="https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-172947.png" height="400" alt="Screenshot"/> 
 
 
