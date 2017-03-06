@@ -7,8 +7,6 @@ It involves extensive use of SQLite database, Intents, Fragments, BroadcastRecei
 
 The app is also available on google play store - 
 link - https://play.google.com/store/apps/details?id=com.narula.jatin.attendancemanager&hl=en
+screen shot -- >
+![Alt text width=20 height=20](https://github.com/jatin96/Attendance-Manager/blob/master/Screenshot_20170114-173239.png)
 
-
-https://cloud.githubusercontent.com/assets/13009998/23602686/9e41ccd2-0277-11e7-8203-9c12f7da3a03.png
-
-![ScreenShot](https://drive.google.com/open?id=0B4124p8jlvfudGpFemZDd295Y1k)
